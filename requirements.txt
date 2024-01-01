@@ -1,0 +1,7 @@
+plotly
+nbformat>=4.2
+pandas
+numpy
+matplotlib
+streamlit
+pyarrow
