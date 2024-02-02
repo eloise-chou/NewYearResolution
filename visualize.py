@@ -12,7 +12,13 @@ from shapely import affinity
 MRT_sum_with_coord = pd.read_csv('./DATA/MRT_sum_with_coord_contain_22-05.csv')
 
 st.title("捷運站跨年人潮熱點圖")
+st.subheader("前言")
+st.text("2024 年首度來到台北 101 跨年，著實被一級戰區的人潮嚇到，活動結束跟著散場的人潮慢慢移動到最近的台北\n捷運 101 站後，發現進站人潮已經大排長龍，因此決定前往與其相鄰的捷運象山站，但當抵達後發現捷運象山站\n的排隊人潮與捷運 101 站的人潮相彷，多走了一段冤枉路讓我不禁好奇到底前往哪一個捷運站可以最快進站。")
 st.subheader("政府應對措施")
+st.text("為了有效率的疏散跨年人潮，台北市政府實施了以下措施：")
+st.text("1. 台北捷運連續 42 小時營運\n2. 調整捷運班距時間\n3. 規劃 3 線散場接駁車至捷運忠孝新生、公館、景美以及木柵")
+st.subheader("資料蒐集")
+st.text("我利用政府資料開放平台提供的「臺北捷運各站分時進出量統計」再結合台北捷運位置資料，")
 
 selected_year = st.selectbox("請選擇年份:", list(range(2018, 2024)))
 
