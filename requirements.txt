@@ -5,3 +5,5 @@ numpy
 matplotlib
 streamlit
 pyarrow
+opencv-python
+shapely
